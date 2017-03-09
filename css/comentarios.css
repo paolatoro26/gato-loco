@@ -1,0 +1,18 @@
+.comentarios
+{
+	width: 50%;
+	border: 3px solid black;
+	margin: 0 auto;
+	padding: 5px;
+	margin-bottom: 3%
+}
+input
+{
+	width:80%
+}
+.formulario
+{
+	width: 60%;
+	padding: 5px;
+	margin: 0 auto
+}

@@ -1,0 +1,17 @@
+.inicio1, .inicio2
+{
+	margin: 15% 0;
+}
+.iniciar, .comenzar
+{
+	margin-top: 5%
+}
+.inicio2
+{
+	display: none
+}
+button:hover {
+	background: rgba(0,0,0,0) !important;
+	color: rgb(51,122,183)!important;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
