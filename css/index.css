@@ -10,9 +10,9 @@
 {
 	margin-top: 5%
 }
-.inicio3,.inicio2
+.inicio1,.inicio3
 {
-	
+	display: none
 }
 button:hover 
 {
@@ -26,15 +26,35 @@ button:hover
 	height: 150px;
 	border: 3px solid black;
 }
+.michi .row div:hover
+{
+	background: yellow
+}
 .inicio3 h2
 {
 	margin-bottom: 20px
 }
+.michi .row .arriba
+{
+	border-top: white;
+}
+.michi .row .abajo
+{
+	border-bottom: white
+}
+.michi .row .izquierda
+{
+	border-left: white
+}
+.michi .row .derecha
+{
+	border-right: white
+}
+
 @media screen and (max-width: 700px){
-    .michi .row div
-	{
-	width: 50px;
-	height: 50px;
+    .michi .row div{
+	width: 70px;
+	height: 70px;
 	border: 3px solid black;
 	}
 }

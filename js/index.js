@@ -1,4 +1,4 @@
-$(document).ready(init);
+/*$(document).ready(init);
 function init ()
 {
 	$("section.inicio2").hide();
@@ -23,4 +23,4 @@ function paginaJuego()
 {
 	$("section.inicio3").show();
 	$("section.inicio2").hide();
-}
+}*/
