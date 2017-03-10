@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/comun.css">
 	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+	<script type="text/javascript"  src="js/bootstrap.min.js" ></script>
+	<script type="text/javascript"src="js/jquery.js" ></script>
 </head>
 <body>
 	<header class="text-right">
@@ -23,12 +25,12 @@
 			<button class="btn btn-primary">Iniciar Juego</button>
 		</div>
 	</section>
-	<section class="inicio2 text-center">
+	<section class="inicio2 text-left">
 		<div class="container">
 			<div class="nombres">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-2 col-xs-6">
-						<span>Ingrese el numero del jugador 1</span>
+						<h3>Ingrese el numero del jugador 1</h3>
 					</div>
 					<div class="col-md-2">
 						<input type="text" placeholder="nombre">
@@ -36,20 +38,66 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6 col-md-offset-2 col-xs-6">
-						<span>Ingrese el numero del jugador 2</span>
+						<h3>Ingrese el numero del jugador 2</h3>
 					</div>
 					<div class="col-md-2">
 						<input type="text" placeholder="nombre">
 					</div>
 				</div>
 			</div>
-			<div class="comenzar">
+			<div class="comenzar text-center">
 				<div class="container">
 					<button class="btn btn-primary">Comenzar</button>
 				</div>
 			</div>
 		</div>
-		
 	</section>
+	<section class="inicio3 text-center">
+		<div class="container">
+			<h2>Turno de <span class="player">Irene</span></h2>
+			<div class="row">
+				<div class="col-md-5 col-md-offset-3">
+					<div class="michi ">
+						<div class="row">
+							<div class="col-md-4"></div>
+							<div class="col-md-4 bordeado"></div>
+							<div class="col-md-4"></div>
+						</div>
+						<div class="row">
+							<div class="col-md-4"></div>
+							<div class="col-md-4 bordeado"></div>
+							<div class="col-md-4"></div>
+						</div>
+						<div class="row">
+							<div class="col-md-4"></div>
+							<div class="col-md-4 bordeado"></div>
+							<div class="col-md-4"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="movimientos">
+						<div class="row">
+							<div class="col-md-9">
+								<h3>Movimientos de<span class="player1"> Pao</span></h3>
+							</div>
+							<div class="col-md-3">
+								<h2>0</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-9">
+								<h3>Movimientos de<span class="player2"> Yovis</span></h3>
+							</div>
+							<div class="col-md-3">
+								<h2>0</h2>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+	<script src="js/index.js"></script>
 </body>
 </html>
