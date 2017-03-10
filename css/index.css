@@ -1,6 +1,6 @@
 .inicio1, .inicio2
 {
-	margin: 15% 0;
+	margin: 20% 0;
 }
 .inicio3
 {
@@ -10,27 +10,31 @@
 {
 	margin-top: 5%
 }
-.inicio1,.inicio2
+.inicio3,.inicio2
 {
 	
 }
-button:hover {
+button:hover 
+{
 	background: rgba(0,0,0,0) !important;
 	color: rgb(51,122,183)!important;
 	box-shadow: inset 0 0 0 3px #3a7999;
 }
-.michi .row
+.michi .row div
 {
-	width: 100%;
-	height: 100px;
-	outline: 5px red solid
+	width: 150px;
+	height: 150px;
+	border: 3px solid black;
 }
 .inicio3 h2
 {
 	margin-bottom: 20px
 }
-.bordeado
-{
-	border-left: 3px solid;
-	background: black;
+@media screen and (max-width: 700px){
+    .michi .row div
+	{
+	width: 50px;
+	height: 50px;
+	border: 3px solid black;
+	}
 }
