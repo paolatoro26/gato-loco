@@ -26,38 +26,22 @@
 			</div>
 		</div>
 	</section>
-	<section id="nombres">
-	<div class="content">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3">
-					<p>Ingrese el nombre del jugador 1 <input class="form-control" type="text"></p>
-			<p>Ingrese el nombre del jugador 2 <input class="form-control" type="text"></p>
-			<p class="text-center">
-				<button id="btn btn-info">Comenzar</button>
-			</p>
-				</div>
-			</div>
-			
-		</div>
-	</div>
-</section>
-	<section class="inicio2 text-left">
+	<section class="inicio2 text-center">
 		<div class="container">
 			<div class="nombres">
 				<div class="row">
-					<div class="col-md-6 col-md-offset-2 col-xs-6">
-						<h3>Ingrese el numero del jugador 1</h3>
+					<div class="col-md-6 col-md-offset-2 col-xs-12">
+						<span>Ingrese el numero del jugador 1</span>
 					</div>
-					<div class="col-md-2">
+					<div class="col-md-2 col-xs-12">
 						<input type="text" placeholder="nombre">
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6 col-md-offset-2 col-xs-6">
-						<h3>Ingrese el numero del jugador 2</h3>
+					<div class="col-md-6 col-md-offset-2 col-xs-12">
+						<span>Ingrese el numero del jugador 2</span>
 					</div>
-					<div class="col-md-2">
+					<div class="col-md-2 col-xs-12">
 						<input type="text" placeholder="nombre">
 					</div>
 				</div>
@@ -73,18 +57,18 @@
 		<div class="container">
 			<h2>Turno de <span class="player">Irene</span></h2>
 			<div class="row">
-				<div class="col-md-5 col-xs-7 col-md-offset-3 col-xs-offset-3">
+				<div class="col-md-5 col-xs-7 col-xs-offset-3 col-md-offset-3 ">
 					<div class="michi ">
-						<div class="row">
-							<div class="col-md-4 col-xs-4 arriba izquierda"></div>
-							<div class="col-md-4 col-xs-4 arriba"></div>
-							<div class="col-md-4 col-xs-4 arriba derecha"></div>
-							<div class="col-md-4 col-xs-4 bordeado izquierda"></div>
-							<div class="col-md-4 col-xs-4 bordeado"></div>
-							<div class="col-md-4 col-xs-4 bordeado derecha"></div>
-							<div class="col-md-4 col-xs-4 abajo izquierda"></div>
-							<div class="col-md-4 col-xs-4 abajo"></div>
-							<div class="col-md-4 col-xs-4 abajo derecha"></div>
+						<div class="row divisiones">
+							<div id="uno" class="col-md-4 col-xs-4 division arriba izquierda" value="1"></div>
+							<div id="dos"class="col-md-4 col-xs-4 division arriba" value="2"></div>
+							<div id="tres"class="col-md-4 col-xs-4 division arriba derecha"></div>
+							<div id="cuatro"class="col-md-4 col-xs-4 division bordeado izquierda"></div>
+							<div id="cinco" class="col-md-4 col-xs-4 division bordeado"></div>
+							<div id="seis" class="col-md-4 col-xs-4 division bordeado derecha"></div>
+							<div id="siete" class="col-md-4 col-xs-4 division abajo izquierda"></div>
+							<div id="ocho" class="col-md-4 col-xs-4 division abajo"></div>
+							<div id="nueve" class="col-md-4 col-xs-4 division abajo derecha"></div>
 						</div>
 					</div>
 				</div>
@@ -112,6 +96,5 @@
 		</div>
 	</section>
 	<script src="js/index.js"></script>
-	
 </body>
 </html>
